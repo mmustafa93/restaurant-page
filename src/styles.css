@@ -1,0 +1,39 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+}
+
+#insta-icon {
+    width: 35px;
+    height: 35px;
+}
+
+nav button,
+#logo,
+#insta-icon {
+    cursor: pointer;
+}
+
+nav button {
+    background-color: white;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+
+nav button:hover{
+    text-decoration: underline;
+}
