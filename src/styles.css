@@ -40,7 +40,6 @@ nav button:hover{
 
 #content {
     padding: 0 10%;
-    height: 80vh;
     display: flex;
     align-items: center;
 }
@@ -49,12 +48,12 @@ nav button:hover{
     display: flex;
     gap: 3rem;
     justify-content: space-evenly;
+    padding: 12rem 0 12rem 0;
 }
 
 
 #home-img img {
     width: 100%;
-    height: auto;
     border-radius: 10px;
 }
 
@@ -74,6 +73,24 @@ nav button:hover{
     font-size: 1.2rem;
     font-weight: 500;
     max-width: 300px;
+}
+
+#locations-hours {
+    padding: 50px 0 50px 0;
+}
+
+#locations-hours h1 {
+    text-align: center;
+}
+
+#locations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#chicago-p,
+#denver-p {
+    padding: 0.8rem 0 0.8rem 0;
 }
 
 footer button {
